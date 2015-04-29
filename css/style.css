@@ -1,0 +1,132 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+.page {
+    width: 720px;
+    margin: 10px auto;
+    font: 14px 'Arial';
+}
+    .page__header {
+        text-align: center;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+
+    .page__content {
+    }
+
+.header {
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+    .title_content {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+.subtitle {
+    font-size: 15px;
+    color: #555;
+}
+
+.employment {
+    float: right;
+}   
+    .employment:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+    }
+
+    .employment__current {
+
+    }
+
+    .employement__previous {
+
+    }
+
+.bio {
+    width: 480px;
+    float: left;
+}
+    .bio__title {
+
+    }
+
+    .bio__content {
+        
+    }
+
+.jobsite {
+    margin: 0 auto 10px;
+}
+    .jobsite__title {
+        display: inline-block;
+    }
+        .jobsite__title:after{
+            content: " @";
+        }
+
+    .jobsite__position {
+        display:inline-block;
+    }
+
+    .jobsite__date {
+
+    }
+
+.projects {
+    width: 480px;
+    float: left;
+}
+
+.employment__previous .jobsite__title,
+.employment__previous .jobsite__position {
+    text-decoration: line-through;
+}
+
+.jobsite:hover .jobsite__title,
+.jobsite:hover .jobsite__position {
+    text-decoration: none;
+}
+
+.date-range {
+    text-align: center;
+}
+    .date__from {
+        display: inline-block;
+        color: #555;
+        font-size: 11px;
+    }
+        .date__from:after {
+            content: " -";
+        }
+
+
+    .date__to {
+        display: inline-block;
+        color: #555;
+        font-size: 11px;
+    }
